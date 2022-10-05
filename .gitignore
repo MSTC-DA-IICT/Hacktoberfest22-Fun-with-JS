@@ -1,0 +1,7 @@
+.vscode/tasks.json
+.eslintrc
+runner.json
+jsconfig.json
+
+./scripts
+./tic-tac-toe/scripts
