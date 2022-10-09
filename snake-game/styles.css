@@ -126,39 +126,42 @@ header:hover #nav a {
 .losing-message,
 .instruction {
   display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 84vh;
+  top: 8vh;
   justify-content: center;
+  align-content: center;
+  justify-items: center;
   align-items: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
   flex-direction: column;
 }
 
 .instruction {
-  padding-top: 65vh;
   background-color: rgba(0, 0, 0, 0.4);
-  /* position: absolute; */
 }
 
 .losing-message div,
 .instruction div {
-  height: 70px;
+  position: absolute;
   font-size: 5em;
+  top: 40%;
   padding: auto;
   text-align: center;
-  margin-bottom: 20px;
   text-indent: 10px;
+  margin-bottom: 20px;
 }
 
 .instruction div {
   font-size: 3em;
+  top: 80%;
 }
 
 .losing-message button {
+  position: absolute;
+  top: 60%;
   font-size: 3rem;
   background-color: white;
   border: 1px solid black;

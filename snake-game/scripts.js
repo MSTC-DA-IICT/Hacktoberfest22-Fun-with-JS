@@ -6,6 +6,7 @@ const restartButton = document.getElementById("restartButton");
 const losingMessageTextElement = document.querySelector("[data-lose-message-text]");
 const width = canvas.getAttribute('width')
 const height = canvas.getAttribute('height')
+interval = window.setInterval(function () {});
 
 res = 20
 rows = height / res
