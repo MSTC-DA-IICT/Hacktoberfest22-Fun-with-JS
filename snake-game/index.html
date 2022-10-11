@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Snake Game</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Snake Game</h1>
+        <p id="expand">Expand for more games.</p>
+        <p id="select">Select a game.</p>
+        <ul id="nav">
+            <li>
+                <a href="../index.html" data-game="home">Home</a>
+            </li>
+            <li>
+                <a href="../tic-tac-toe/index.html" data-game="tic-tac-toe">Tic-Tac-Toe</a>
+            </li>
+            <li>
+                <a href="#magic-8-ball" data-game="magic-8-ball">Magic 8-Ball</a>
+            </li>
+            <li>
+                <a href="../snake-game/index.html" data-game="snake-game" class="selected">Snake Game</a>
+            </li>
+            <li>
+                <a href="../maze-game/index.html" data-game="maze-game">Maze Game</a>
+            </li>
+            <li>
+                <a href="../pong game/index.html" data-game="pong-game">Pong Game</a>
+            </li>
+        </ul>
+    </header>
+    <div id="screen">
+        <canvas id="game" width=800 height=600 />
+    </div>
+    <div class="instruction show" id="instruction">
+        <div>
+            Use 'a', 's', 'w' and 'd' to start and control.
+            <br />
+            <br />
+            <br />
+            Enjoy!
+        </div>
+    </div>
+    <div class="losing-message" id="losingMessage">
+        <div data-lose-message-text></div>
+        <button id="restartButton">Restart</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
